@@ -1,0 +1,25 @@
+#p {
+
+color : #e1e1e1
+}
+.headerClass{
+	background-image:none !important;
+}
+.CustomProperty{
+	padding-top:100px !important;
+}
+.navbar{
+	background-color: black !important;
+}
+
+.loginParent{
+	width: 400px;
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 15%;
+}
+
+#taskParent, #EditParent{
+	
+	display:none;
+}
