@@ -52,7 +52,7 @@
     font-size: 30px;
     color: greenyellow;
     font-weight: bolder;">
-		</div>
+		</div><a href="index.jsp">Logout</a>
         <h1 class="text-uppercase">See your completed Tasks history!</h1>
         <br>
         

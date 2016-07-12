@@ -52,7 +52,7 @@
     font-size: 30px;
     color: greenyellow;
     font-weight: bolder;">
-		</div>
+		</div> <a href="index.jsp">Logout</a>
         <h1 class="text-uppercase">You can manage your Tasks Here!</h1>
         <br>
         <!-- button download cv -->

@@ -17,6 +17,7 @@
     </head>
     <body bgcolor="silver">
         <div class="container ">
+		<script>localStorage.removeItem("username");</script>
     
     <div class="loginParent">
             <div class="panel panel-default">
