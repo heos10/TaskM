@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Pending Tasks</title>
 
 <link rel="stylesheet" href="web\style.css">
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
