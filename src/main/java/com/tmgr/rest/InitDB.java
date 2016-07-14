@@ -43,8 +43,9 @@ public class InitDB {
 		      }
 		      
 		       rs.close();
-
-		      
+                       stmt.close();
+                       conn.close();
+		       
 		   }
 		   
 		   catch(SQLException e){
@@ -88,7 +89,8 @@ public class InitDB {
 		    	  output = "false";
 		      }
 
-		     conn.close();
+		      stmt.close();
+                      conn.close();
 		   }
 		   
 		   catch(SQLException e){
@@ -139,7 +141,8 @@ public class InitDB {
 		    	  output = "false";
 		      }
 
-		      conn.close();
+		      stmt.close();
+                      conn.close();
 		   }
 		   
 		   catch(SQLException e){
@@ -183,7 +186,8 @@ public class InitDB {
 		      else{
 		    	  output = "false";
 		      }
-
+                      
+                      stmt.close();
 		      conn.close();
 		   }
 		   
@@ -229,7 +233,8 @@ public class InitDB {
 		    	  output = "false";
 		      }
 
-		      conn.close();
+		      stmt.close();
+                      conn.close();
 		   }
 		   
 		   catch(SQLException e){
@@ -288,7 +293,8 @@ public class InitDB {
 		      
 		    
 
-		      conn.close();
+		      stmt.close();
+                      conn.close();
 		   }
 		   
 		   catch(SQLException e){
@@ -333,7 +339,8 @@ public class InitDB {
 		    	  output = "false";
 		      }
 
-		      conn.close();
+		      stmt.close();
+                      conn.close();
 		   }
 		   
 		   catch(SQLException e){
@@ -380,7 +387,8 @@ public class InitDB {
 		    	  output = "false";
 		      }
 
-		      conn.close();
+		      stmt.close();
+                      conn.close();
 		   }
 		   
 		   catch(SQLException e){
@@ -440,7 +448,8 @@ public class InitDB {
 		      
 		    
 
-		      conn.close();
+		      stmt.close();
+                      conn.close();
 		   }
 		   
 		   catch(SQLException e){
