@@ -197,12 +197,12 @@ if(confirm("Your task will be deleted from this list. You want to continue?")){
 			      
 			   
 			        success: function (response) {
-					
-			            if(response=="true"){
-						
-						}
-						else{
-						}
+                                    alert("Task successfully deleted!");
+//			            if(response=="true"){
+//						
+//						}
+//						else{
+//						}
 			   
 			        },
 			        
