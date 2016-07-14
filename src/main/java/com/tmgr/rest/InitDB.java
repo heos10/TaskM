@@ -88,7 +88,7 @@ public class InitDB {
 		    	  output = "false";
 		      }
 
-		      
+		     conn.close();
 		   }
 		   
 		   catch(SQLException e){
@@ -139,7 +139,7 @@ public class InitDB {
 		    	  output = "false";
 		      }
 
-		      
+		      conn.close();
 		   }
 		   
 		   catch(SQLException e){
@@ -184,7 +184,7 @@ public class InitDB {
 		    	  output = "false";
 		      }
 
-		      
+		      conn.close();
 		   }
 		   
 		   catch(SQLException e){
@@ -229,7 +229,7 @@ public class InitDB {
 		    	  output = "false";
 		      }
 
-		      
+		      conn.close();
 		   }
 		   
 		   catch(SQLException e){
@@ -288,7 +288,7 @@ public class InitDB {
 		      
 		    
 
-		      
+		      conn.close();
 		   }
 		   
 		   catch(SQLException e){
@@ -333,7 +333,7 @@ public class InitDB {
 		    	  output = "false";
 		      }
 
-		      
+		      conn.close();
 		   }
 		   
 		   catch(SQLException e){
@@ -380,7 +380,7 @@ public class InitDB {
 		    	  output = "false";
 		      }
 
-		      
+		      conn.close();
 		   }
 		   
 		   catch(SQLException e){
@@ -440,7 +440,7 @@ public class InitDB {
 		      
 		    
 
-		      
+		      conn.close();
 		   }
 		   
 		   catch(SQLException e){
