@@ -12,7 +12,7 @@ function loginAction(){
 		
             //sen request to next page.
     		if(response == "true"){
-                alert("Login Successful!");
+                
     		localStorage.setItem("username", userName);
     		window.location.href = 'taskPage.jsp?username='+userName;
     		}
@@ -199,7 +199,7 @@ if(confirm("Your task will be deleted from this list. You want to continue?")){
 			        success: function (response) {
 					
 			            if(response=="true"){
-					alert("Task successfully deleted!");	
+						
 						}
 						else{
 						}
